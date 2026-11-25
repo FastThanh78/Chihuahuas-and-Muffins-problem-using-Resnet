@@ -76,9 +76,4 @@ if __name__ == "__main__":
     with open(STATS_FILE, "w") as file:
         json.dump({"mean": mean, "std": std}, file)
 
-(64, 3, 7, 7)
-(0, 1, 2, 3)
-# 0 là số ảnh trong 1 patch
-# 1 là số channel
-# 2 là chiều rộng
-# 3 là chiều cao
+
