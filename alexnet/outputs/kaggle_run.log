@@ -1,0 +1,108 @@
+8.2s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.2s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.2s 3 0.00s - to python to disable frozen modules.
+8.2s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.8s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.8s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.8s 7 0.00s - to python to disable frozen modules.
+8.8s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.0s 9 Writing data_process.py
+10.0s 10 Writing alexnet_scratch.py
+10.0s 11 Writing train.py
+28.2s 12 torch 2.11.0+cu130 | GPU: Tesla T4
+28.2s 13 dữ liệu: /kaggle/input/datasets/hoangducbao/kaggle-dataset-alexnet/Processed
+28.2s 14 số tham số AlexNet: 2734274
+201.5s 15 alexnet_scratch epoch 1 | train loss 0.4584 acc 0.8007 | val loss 0.3621 acc 0.8414
+201.5s 16 saved best model
+208.9s 17 alexnet_scratch epoch 2 | train loss 0.3746 acc 0.8509 | val loss 0.2683 acc 0.8901
+208.9s 18 saved best model
+216.6s 19 alexnet_scratch epoch 3 | train loss 0.3073 acc 0.8732 | val loss 0.2567 acc 0.907
+216.6s 20 saved best model
+224.4s 21 alexnet_scratch epoch 4 | train loss 0.3116 acc 0.8763 | val loss 0.3714 acc 0.8499
+232.2s 22 alexnet_scratch epoch 5 | train loss 0.2818 acc 0.8915 | val loss 0.2403 acc 0.8943
+240.0s 23 alexnet_scratch epoch 6 | train loss 0.2575 acc 0.8981 | val loss 0.3309 acc 0.8541
+247.9s 24 alexnet_scratch epoch 7 | train loss 0.2451 acc 0.912 | val loss 0.1793 acc 0.9366
+247.9s 25 saved best model
+255.7s 26 alexnet_scratch epoch 8 | train loss 0.2237 acc 0.9157 | val loss 0.1914 acc 0.926
+263.7s 27 alexnet_scratch epoch 9 | train loss 0.2275 acc 0.9113 | val loss 0.1716 acc 0.9429
+263.7s 28 saved best model
+271.6s 29 alexnet_scratch epoch 10 | train loss 0.2086 acc 0.9197 | val loss 0.2024 acc 0.926
+279.3s 30 alexnet_scratch epoch 11 | train loss 0.1917 acc 0.9289 | val loss 0.7484 acc 0.6681
+287.2s 31 alexnet_scratch epoch 12 | train loss 0.1867 acc 0.9305 | val loss 0.3467 acc 0.8753
+295.1s 32 alexnet_scratch epoch 13 | train loss 0.1776 acc 0.9329 | val loss 0.2006 acc 0.9197
+303.0s 33 alexnet_scratch epoch 14 | train loss 0.1645 acc 0.9366 | val loss 0.309 acc 0.8668
+310.5s 34 alexnet_scratch epoch 15 | train loss 0.1447 acc 0.9432 | val loss 0.3604 acc 0.8351
+318.5s 35 alexnet_scratch epoch 16 | train loss 0.205 acc 0.9232 | val loss 0.1476 acc 0.9514
+318.5s 36 saved best model
+326.4s 37 alexnet_scratch epoch 17 | train loss 0.1214 acc 0.9554 | val loss 0.1456 acc 0.945
+334.5s 38 alexnet_scratch epoch 18 | train loss 0.1184 acc 0.9561 | val loss 0.1437 acc 0.9429
+342.1s 39 alexnet_scratch epoch 19 | train loss 0.1103 acc 0.9603 | val loss 0.1529 acc 0.9387
+349.7s 40 alexnet_scratch epoch 20 | train loss 0.1036 acc 0.9624 | val loss 0.1425 acc 0.9577
+349.7s 41 saved best model
+357.7s 42 alexnet_scratch epoch 21 | train loss 0.0847 acc 0.9683 | val loss 0.1328 acc 0.9556
+365.7s 43 alexnet_scratch epoch 22 | train loss 0.0732 acc 0.9735 | val loss 0.172 acc 0.9514
+373.5s 44 alexnet_scratch epoch 23 | train loss 0.0687 acc 0.9739 | val loss 0.1396 acc 0.9598
+373.5s 45 saved best model
+381.1s 46 alexnet_scratch epoch 24 | train loss 0.0656 acc 0.9777 | val loss 0.1828 acc 0.9323
+388.9s 47 alexnet_scratch epoch 25 | train loss 0.0576 acc 0.9798 | val loss 0.2542 acc 0.9345
+396.6s 48 alexnet_scratch epoch 26 | train loss 0.0522 acc 0.9822 | val loss 0.1232 acc 0.9556
+404.4s 49 alexnet_scratch epoch 27 | train loss 0.0437 acc 0.9859 | val loss 0.1389 acc 0.9556
+412.1s 50 alexnet_scratch epoch 28 | train loss 0.0454 acc 0.984 | val loss 0.13 acc 0.9535
+419.7s 51 alexnet_scratch epoch 29 | train loss 0.0338 acc 0.9899 | val loss 0.1304 acc 0.9577
+427.5s 52 alexnet_scratch epoch 30 | train loss 0.0366 acc 0.989 | val loss 0.1384 acc 0.9535
+471.8s 53 alexnet_scratch test loss 0.1717 acc 0.9459
+471.8s 54 bỏ qua xuất ONNX: No module named 'onnxscript'
+471.8s 55 thời gian huấn luyện: 7.4 phút
+473.5s 56 epoch  train_loss  train_accuracy  val_loss  val_accuracy
+473.5s 57 1      0.4584          0.8007    0.3621        0.8414
+473.5s 58 2      0.3746          0.8509    0.2683        0.8901
+473.5s 59 3      0.3073          0.8732    0.2567        0.9070
+473.5s 60 4      0.3116          0.8763    0.3714        0.8499
+473.5s 61 5      0.2818          0.8915    0.2403        0.8943
+473.5s 62 6      0.2575          0.8981    0.3309        0.8541
+473.5s 63 7      0.2451          0.9120    0.1793        0.9366
+473.5s 64 8      0.2237          0.9157    0.1914        0.9260
+473.5s 65 9      0.2275          0.9113    0.1716        0.9429
+473.5s 66 10      0.2086          0.9197    0.2024        0.9260
+473.5s 67 11      0.1917          0.9289    0.7484        0.6681
+473.5s 68 12      0.1867          0.9305    0.3467        0.8753
+473.5s 69 13      0.1776          0.9329    0.2006        0.9197
+473.5s 70 14      0.1645          0.9366    0.3090        0.8668
+473.5s 71 15      0.1447          0.9432    0.3604        0.8351
+473.5s 72 16      0.2050          0.9232    0.1476        0.9514
+473.5s 73 17      0.1214          0.9554    0.1456        0.9450
+473.5s 74 18      0.1184          0.9561    0.1437        0.9429
+473.5s 75 19      0.1103          0.9603    0.1529        0.9387
+473.5s 76 20      0.1036          0.9624    0.1425        0.9577
+473.5s 77 21      0.0847          0.9683    0.1328        0.9556
+473.5s 78 22      0.0732          0.9735    0.1720        0.9514
+473.5s 79 23      0.0687          0.9739    0.1396        0.9598
+473.5s 80 24      0.0656          0.9777    0.1828        0.9323
+473.5s 81 25      0.0576          0.9798    0.2542        0.9345
+473.5s 82 26      0.0522          0.9822    0.1232        0.9556
+473.5s 83 27      0.0437          0.9859    0.1389        0.9556
+473.5s 84 28      0.0454          0.9840    0.1300        0.9535
+473.5s 85 29      0.0338          0.9899    0.1304        0.9577
+473.5s 86 30      0.0366          0.9890    0.1384        0.9535
+477.4s 87 precision    recall  f1-score   support
+477.4s 88 
+477.4s 89 chihuahua     0.9273    0.9766    0.9513       640
+477.4s 90 muffin     0.9706    0.9099    0.9393       544
+477.4s 91 
+477.4s 92 accuracy                         0.9459      1184
+477.4s 93 macro avg     0.9489    0.9432    0.9453      1184
+477.4s 94 weighted avg     0.9472    0.9459    0.9458      1184
+477.4s 95 
+477.4s 96 ROC-AUC (chihuahua là lớp dương): 0.9884
+477.4s 97 đã lưu alexnet_scratch_test_predictions.csv
+483.0s 98 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+483.0s 99 cells[i][c] = re.sub('\\\\\|', '|', cell)
+483.1s 100 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+483.1s 101 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+483.9s 102 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+484.0s 103 [NbConvertApp] Writing 136424 bytes to __notebook__.ipynb
+486.4s 104 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+487.0s 105 [NbConvertApp] Support files will be in __results___files/
+487.0s 106 [NbConvertApp] Making directory __results___files
+487.0s 107 [NbConvertApp] Making directory __results___files
+487.0s 108 [NbConvertApp] Writing 343319 bytes to __results__.html
