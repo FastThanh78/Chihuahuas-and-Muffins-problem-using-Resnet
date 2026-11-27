@@ -1,0 +1,8 @@
+trích đặc trưng 8.5 s
+số ảnh × số đặc trưng | train (4260, 256) | val (473, 256) | test (1184, 256)
+random_forest fit 0.9 s | train acc 1.0 | val acc 0.9049
+random_forest test acc 0.8767
+confusion matrix (hàng = nhãn thật, cột = dự đoán; 0 = chihuahua, 1 = muffin):
+[[573  67]
+ [ 79 465]]
+test accuracy: 0.8766891891891891
